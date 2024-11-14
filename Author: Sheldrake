@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rupert Sheldrake</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Rupert Sheldrake</h1>
+        <p>A page dedicated to Rupert Sheldrake, his works, and his inspirations.</p>
+    </header>
+
+    <section>
+        <h2>Works by Rupert Sheldrake</h2>
+        <ul>
+            <li><a href="https://example.com/book1">Morphic Resonance</a></li>
+            <li><a href="https://example.com/book2">Science Set Free</a></li>
+            <!-- Add more works with links as needed -->
+        </ul>
+    </section>
+
+    <section>
+        <h2>Inspiration: Alfred North Whitehead</h2>
+        <p>Alfred North Whitehead was a significant influence on Sheldrake's ideas.</p>
+        <ul>
+            <li><a href="https://example.com/whitehead-book1">Process and Reality</a></li>
+            <li><a href="https://example.com/whitehead-book2">Adventures of Ideas</a></li>
+            <!-- Add more works by Whitehead -->
+        </ul>
+    </section>
+
+    <footer>
+        <p><a href="../index.html">Back to Library</a></p>
+    </footer>
+
+</body>
+</html>
