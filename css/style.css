@@ -1,97 +1,92 @@
+/* Reset margins */
 body {
     font-family: Arial, sans-serif;
-    background-color: #faf8f4; /* light parchment-like beige */
-    color: #4b3f39; /* dark brown for primary text */
     margin: 0;
     padding: 0;
 }
 
-header, footer {
-    background-color: #a7bfa5; /* soft moss green */
-    padding: 1em;
+/* Top Navigation */
+.top-nav {
+    background-color: #3d2f2f; /* earthy brown */
     text-align: center;
+    padding: 1em;
 }
 
-h1, h2 {
-    color: #3d2f2f; /* darker earthy brown */
-}
-
-blockquote {
-    font-style: italic;
-    color: #555;
-    margin: 1em 0;
-    padding-left: 1em;
-    border-left: 3px solid #a7bfa5;
-}
-
-ul {
+.top-nav ul {
     list-style-type: none;
     padding: 0;
-}
-
-ul li {
-    margin: 0.5em 0;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #6b8e63; /* muted warm green */
-}
-
-ul li a:hover {
-    text-decoration: underline;
-    color: #8b6a59; /* softer brown on hover */
-}
-
-/* Navigation Bar Styling */
-nav {
-    background-color: #3d2f2f; /* earthy brown */
-    padding: 0.5em;
-}
-
-nav ul {
+    margin: 0;
     display: flex;
     justify-content: center;
+}
+
+.top-nav ul li {
+    margin: 0 1.5em;
+}
+
+.top-nav ul li a {
+    color: #faf8f4;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.top-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Introductory Section with White Space */
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh; /* Adjust as needed for more white space */
+    color: #4b3f39; /* dark brown */
+    text-align: center;
+    background-color: #faf8f4; /* very light parchment */
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #3d2f2f;
+}
+
+.intro p {
+    font-size: 1.2em;
+    max-width: 60%;
+    color: #4b3f39;
+}
+
+/* Bottom Navigation for Chapters */
+.bottom-chapters-nav {
+    background-color: #3d2f2f; /* earthy brown */
+    text-align: center;
+    padding: 1em;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom-chapters-nav ul {
+    list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-nav ul li {
-    margin: 0 1em;
+.bottom-chapters-nav ul li {
+    margin: 0.5em 1em;
 }
 
-nav ul li a {
-    color: #faf8f4; /* light background color */
+.bottom-chapters-nav ul li a {
+    color: #faf8f4;
     text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-    color: #8b6a59; /* soft brown */
-}
-
-/* Button Styling for Expandable Sections */
-button {
-    background-color: #6b8e63; /* muted warm green */
-    color: #faf8f4; /* light parchment color */
-    border: none;
-    padding: 0.5em 1em;
-    cursor: pointer;
     font-size: 1em;
-    border-radius: 4px;
 }
 
-button:hover {
-    background-color: #8b6a59; /* muted brown */
-}
-
-/* Footer Links */
-footer a {
-    color: #3d2f2f; /* darker earthy brown */
-    text-decoration: none;
-}
-
-footer a:hover {
+.bottom-chapters-nav ul li a:hover {
     text-decoration: underline;
-    color: #6b8e63; /* muted warm green */
 }
