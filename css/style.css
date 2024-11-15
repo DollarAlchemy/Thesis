@@ -7,7 +7,7 @@ body {
 }
 
 header, footer {
-    background-color: #d9c9a0;
+    background-color: #d9c9a8;
     padding: 1em;
     text-align: center;
 }
@@ -21,7 +21,7 @@ blockquote {
     color: #555;
     margin: 1em 0;
     padding-left: 1em;
-    border-left: 3px solid #d9c9a0;
+    border-left: 3px solid #d9c9a8;
 }
 
 ul {
@@ -40,4 +40,37 @@ ul li a {
 
 ul li a:hover {
     text-decoration: underline;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #5b4636;
+    padding: 0.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #f4f1e9;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #d9c9a8;
+    color: #5b4636;
+    padding: 1em;
+    text-align: center;
 }
