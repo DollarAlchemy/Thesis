@@ -74,3 +74,28 @@ footer {
     padding: 1em;
     text-align: center;
 }
+
+/* Button Styling for Expandable Sections */
+button {
+    background-color: #5b4636;
+    color: #f4f1e9;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #4a3a2d;
+}
+
+/* Footer Links */
+footer a {
+    color: #5b4636;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
