@@ -1,19 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f1e9;
-    color: #333;
+    background-color: #faf8f4; /* light parchment-like beige */
+    color: #4b3f39; /* dark brown for primary text */
     margin: 0;
     padding: 0;
 }
 
 header, footer {
-    background-color: #d9c9a8;
+    background-color: #a7bfa5; /* soft moss green */
     padding: 1em;
     text-align: center;
 }
 
 h1, h2 {
-    color: #5b4636;
+    color: #3d2f2f; /* darker earthy brown */
 }
 
 blockquote {
@@ -21,7 +21,7 @@ blockquote {
     color: #555;
     margin: 1em 0;
     padding-left: 1em;
-    border-left: 3px solid #d9c9a8;
+    border-left: 3px solid #a7bfa5;
 }
 
 ul {
@@ -35,16 +35,17 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: #3d3d3d;
+    color: #6b8e63; /* muted warm green */
 }
 
 ul li a:hover {
     text-decoration: underline;
+    color: #8b6a59; /* softer brown on hover */
 }
 
 /* Navigation Bar Styling */
 nav {
-    background-color: #5b4636;
+    background-color: #3d2f2f; /* earthy brown */
     padding: 0.5em;
 }
 
@@ -60,25 +61,19 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #f4f1e9;
+    color: #faf8f4; /* light background color */
     text-decoration: none;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
-}
-
-footer {
-    background-color: #d9c9a8;
-    color: #5b4636;
-    padding: 1em;
-    text-align: center;
+    color: #8b6a59; /* soft brown */
 }
 
 /* Button Styling for Expandable Sections */
 button {
-    background-color: #5b4636;
-    color: #f4f1e9;
+    background-color: #6b8e63; /* muted warm green */
+    color: #faf8f4; /* light parchment color */
     border: none;
     padding: 0.5em 1em;
     cursor: pointer;
@@ -87,15 +82,16 @@ button {
 }
 
 button:hover {
-    background-color: #4a3a2d;
+    background-color: #8b6a59; /* muted brown */
 }
 
 /* Footer Links */
 footer a {
-    color: #5b4636;
+    color: #3d2f2f; /* darker earthy brown */
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
+    color: #6b8e63; /* muted warm green */
 }
