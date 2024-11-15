@@ -1,13 +1,35 @@
-/* Reset margins */
+/* General Cottagecore Theme */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Georgia', serif; /* A serif font gives a rustic, cottagecore vibe */
+    background-color: #faf0e6; /* Light parchment background */
+    color: #3d2f2f; /* Warm dark brown text */
     margin: 0;
     padding: 0;
 }
 
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #e8d7c1; /* Soft beige background */
+    color: #3d2f2f;
+    border-bottom: 2px solid #c2a893;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #5b4636;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #4b3f39;
+}
+
 /* Top Navigation */
 .top-nav {
-    background-color: #3d2f2f; /* earthy brown */
+    background-color: #3d2f2f; /* Earthy brown */
     text-align: center;
     padding: 1em;
 }
@@ -41,9 +63,9 @@ body {
     align-items: center;
     justify-content: center;
     height: 70vh; /* Adjust as needed for more white space */
-    color: #4b3f39; /* dark brown */
+    color: #4b3f39; /* Dark brown */
     text-align: center;
-    background-color: #faf8f4; /* very light parchment */
+    background-color: #faf8f4; /* Very light parchment */
 }
 
 .intro h1 {
@@ -58,9 +80,41 @@ body {
     color: #4b3f39;
 }
 
+/* Chapter List Styling */
+.chapter-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.chapter-list li {
+    margin: 1em 0;
+    list-style-type: none;
+}
+
+.chapter-list a {
+    text-decoration: none;
+    color: #5b4636; /* Warm brown link color */
+    font-size: 1.1em;
+    background-color: #f9f2e7;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    border: 1px solid #d4bca1;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.chapter-list a:hover {
+    background-color: #d4bca1; /* Light brown hover effect */
+    color: #fff; /* White text on hover */
+}
+
 /* Bottom Navigation for Chapters */
 .bottom-chapters-nav {
-    background-color: #3d2f2f; /* earthy brown */
+    background-color: #3d2f2f; /* Earthy brown */
     text-align: center;
     padding: 1em;
     position: sticky;
@@ -91,38 +145,20 @@ body {
     text-decoration: underline;
 }
 
-/* Shelf Layout for Chapter Pages */
-.shelf {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    gap: 20px;
-    padding: 20px;
-}
-
-.shelf-item {
-    background-color: #f5f0e8;
-    padding: 15px;
-    border: 1px solid #ddd;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+/* Footer Styling */
+footer {
     text-align: center;
-}
-
-.shelf-item h3 {
-    font-size: 1.2em;
+    padding: 1em;
+    background-color: #e8d7c1;
     color: #5b4636;
-    margin-bottom: 0.5em;
+    border-top: 2px solid #c2a893;
 }
 
-.shelf-item p {
-    font-size: 0.9em;
-    color: #555;
-}
-
-.shelf-item a {
+footer a {
+    color: #5b4636;
     text-decoration: none;
-    color: inherit;
 }
 
-.shelf-item a:hover {
-    color: #6b8e63; /* Muted green on hover */
+footer a:hover {
+    text-decoration: underline;
 }
