@@ -90,3 +90,39 @@ body {
 .bottom-chapters-nav ul li a:hover {
     text-decoration: underline;
 }
+
+/* Shelf Layout for Chapter Pages */
+.shelf {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px;
+    padding: 20px;
+}
+
+.shelf-item {
+    background-color: #f5f0e8;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.shelf-item h3 {
+    font-size: 1.2em;
+    color: #5b4636;
+    margin-bottom: 0.5em;
+}
+
+.shelf-item p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.shelf-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.shelf-item a:hover {
+    color: #6b8e63; /* Muted green on hover */
+}
